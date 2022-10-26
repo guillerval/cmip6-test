@@ -1,0 +1,31 @@
+name: energy_chile
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - esgf-pyclient
+  - bottleneck
+  - cdsapi
+  - dask
+  - geopandas
+  - netcdf4
+  - numexpr
+  - numpy
+  - pandas
+  - progressbar2
+  - rasterio
+  - rtree
+  - scipy
+  - shapely
+  - xarray
+  - pip
+  - esgf-pyclient
+#  - atlite
+  - pip:
+    - lckr-jupyterlab-variableinspector
+    - xclim # added
+    - patool
+    - ipykernel
+    - git+https://github.com/guillerval/atlite.git@cmip
+  - cartopy
+  
