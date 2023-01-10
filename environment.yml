@@ -21,6 +21,8 @@ dependencies:
   - pip
   - esgf-pyclient
 #  - atlite
+  - cftime
+  - wrf-python
   - pip:
     - lckr-jupyterlab-variableinspector
     - xclim # added
